@@ -1,0 +1,194 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>all products</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+  <body>
+        
+<div class="container">
+	        <div class="navbar">
+		           <div class="logo">
+			            <img src="images/logo.png"alt="width="125">
+		               </div>
+                   <nav>
+        <ul>
+        	
+        	<li><a href="">HOME</a></li>
+        	         <li><a href="">PRODUCTS</a></li>
+        	              <li><a href="">ABOUT</a></li>
+        	                  <li><a href="">CONTACT US</a></li>
+        	                      <li><a href="">ACCOUNT</a></li>
+        		
+
+        	
+
+        </ul>
+
+                    </nav>
+                    <img src="images/cart.png"width="30px"height="30px">
+                    <img src="images/menu.png" class="menu-icon"
+                    onclick="menutoggle()">
+                </div>
+    
+
+   </div>
+
+		    <!------------------single product details--------->      
+
+<div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/gallery-1.jpg" width="100%">
+        </div>
+        <div class="col-2">
+            <p>Home/t shirt</p>
+            <h1>red printed t shrit by HRx</h1>
+            <h4>$50.00</h4>
+            <select>
+                <option>select size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>L</option>
+                <option>M</option>
+                <option>S</option>
+            </select>
+            <input type="number" value="1">
+            <a href=""class="btn">Add to cart</a>
+              <h3>Product-detail</h3>
+            <p>this t shirt is good for everone buy this very easy from my store
+            .this was very tough way of the game to buy this type of project</p>
+
+          
+        </div>
+        </div>
+</div>
+<div class="small-container">          
+          <div class="row">
+                                    <div class="col-4">
+                                        <img src="images/product-9.jpg">
+                                                                    <h4>Red Printed-Tshirts</h4>
+        <div class="rating">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                 </div>
+                 <p>$50.00</p>
+             </div>
+                                         <div class="col-4">
+                                        <img src="images/product-10.jpg">
+                                                                    <h4>Red Printed-Tshirts</h4>
+        <div class="rating">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                 </div>
+                 <p>$50.00</p>
+             </div>           
+
+
+
+                                                        <div class="col-4">
+                                        <img src="images/product-11.jpg">
+                                                                    <h4>Red Printed-Tshirts</h4>
+        <div class="rating">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                 </div>
+                 <p>$50.00</p>
+             </div>
+
+                                                 <div class="col-4">
+                                        <img src="images/product-12.jpg">
+                                                                    <h4>Red Printed-Tshirts</h4>
+        <div class="rating">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                 </div>
+                 <p>$50.00</p>
+             </div>                                               
+          </div>                  
+          
+
+</div>
+
+
+</div>
+ 
+
+ 
+  <!------------foooter-------->
+ <div class="footer">
+  <div class="container">
+   <div class="row"> 
+     <div class="footer-col-1">
+      <h3>Download Our App</h3>
+      <p>Download App for android<br> and ios mobile phone.</p>
+       <div class="app-logo">
+        <img src="images\play-store.png">
+        <img src="images\app-store.png">
+       </div>
+     </div>
+     <div class="footer-col-2">
+       <img src="images\logo-white.png">
+       <p>Our purpose is to sustainably make the pleasure and benifits<br> of sports accessible to the money.</p>
+     </div>
+     <div class="footer-col-3">
+      <h3>Useful Links</h3>
+      <ul>
+       <li>Coupons</li>
+       <li>Blog Post</li>
+       <li>Return Policy</li>
+       <li>Join Affiliate</li>
+      </ul>
+     </div>
+     <div class="footer-col-4">
+      <h3>Follow Us</h3>
+      <ul>
+       <li>Facebook</li>
+       <li>Twitter</li>
+       <li>Instagram</li>
+       <li>Youtube</li>
+      </ul>
+     </div>
+   </div>
+   <hr>
+   <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+  </div>
+ </div>
+ </div>
+ <!----- js for toggle menu ----->
+   <script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+     if (MenuItems.style.maxHeight = "0px")
+     {
+      MenuItems.style.maxHeight="200px"
+     }
+     else
+     {
+      MenuItems.style.maxHeight = "0px"
+     }
+    }
+   </script>
+</body>
+</html>
